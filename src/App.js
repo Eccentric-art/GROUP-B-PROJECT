@@ -1,13 +1,11 @@
 import "./App.css";
-import Sidebar from "./sidebar/Sidebar";
-import Home from "./pages/home/Home";
+import Dashboard from "./pages/dashboard/Dashboard";
 
 const App = () => {
   return (
     <div>
       <div className="contanier">
-        <Sidebar />
-        <Home />
+        <Dashboard />
       </div>
     </div>
   );

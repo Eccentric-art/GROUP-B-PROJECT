@@ -1,15 +1,10 @@
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
+
 .sidebar-container {
   font-family: "Times New Roman", Times, serif;
 }
 .nav-div {
-  height: 100vh;
-  width: 20%;
+  height: auto;
+  /* width: 20%; */
   background-color: #f3f3f3;
   padding: 10px 8px;
 }
@@ -17,6 +12,7 @@ body {
   color: #bcbcbc;
   font-size: 12gpx;
   margin-left: 50px;
+
 }
 .nav-li {
   display: flex;
